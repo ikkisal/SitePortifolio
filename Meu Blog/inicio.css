@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+.header{
+    background: linear-gradient(125deg, #093A54 65%, #C8024F 35%);
+    width: 1879px;
+    height: 668px;
+}
+.perfil img{
+    width: 600px;
+    height: 600px;
+    border-radius: 1000px;
+    position: relative;
+    left:53%;
+    bottom: -30px;
+}
+.logo img{
+    width: 155px;
+    height: 139px;
+    position: relative;
+    bottom: 560px;
+    margin-left: 1%;
+}
+.titulo{
+    font-size: 36px;
+    color: #FCE4A8;
+    position: relative;
+    bottom: 85%;
+    margin-left: 15%;
+}
+.subtitulo{
+    margin-left: 15%;
+    position: relative;
+    bottom: 82%;
+    color: #FFFFFF;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitulo2{
+    margin-left: 15%;
+    position: relative;
+    bottom: 78%;
+    color: #FFFFFF;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo{
+    width: 100%;
+    height: 800px;
+}
+.conteudo_left{
+    margin-left: 150px;
+    width: 30%;
+    float: left;
+    
+}
+.conteudo_left img{
+    width: 130px;
+    height: 140px;
+    border-radius: 10px;
+}
+.nevermind img{
+    margin-top: 90px;
+}
+.clube_luta{
+    margin-left: 125px;
+}
+.sobre_mim{
+    color: #093A54;
+    font-size: 64px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    margin-top: 130px;
+    font-weight: bold
+}
+.sobre_mim_texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 380px;
+    right: 280px;
+    position: relative;
+}
+.conteudo_right{
+    float: right;
+    width: 60%;
+}
+.sobre_mim_texto button{    
+    cursor: pointer;
+    border: 0px solid;
+    background-color: white;
+    color: #C8024F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
